@@ -42,6 +42,16 @@ const Index = () => {
     const dummyWorkTimeData = [
       // Dummy data structure based on API schema
       { user_id: "1", login: "john.doe", name: "John", surname: "Doe", work_time: 40, idle_time: 5, computer_activity: 35, department: "IT" },
+      {
+        user_id: "1",
+        login: "zybrk@DESKTOP-B5D760T",
+        name: "DEFAULT NAME",
+        surname: "DEFAULT SERNAME",
+        work_time: 59409,
+        idle_time: 179,
+        computer_activity: 59588,
+        department: "DEFAULT DEPARTMENT",
+      },
       // Add more dummy data as needed
     ];
     setWorkTimeData(dummyWorkTimeData);
